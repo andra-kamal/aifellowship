@@ -11,6 +11,8 @@ df = pd.read_csv("C:\iykraprjct\cicd\Week3NikeProductDescriptionsGenerator.csv")
 
 descriptions = df['Product Description'].tolist()
 
+#test
+
 # tokenize product descriptions
 def preprocess(desc):
   descriptions = descriptions.tolist()
